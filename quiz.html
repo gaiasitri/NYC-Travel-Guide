@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<title>NYC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="style.css" rel="stylesheet">
+<script src="quiz.js"></script>
+</head>
+
+<body>
+
+ <!-- Navbar -->
+ <div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button w3-left"><b>NY</b> Gaia Sitri</a>
+    <div class="w3-right w3-container">
+      <a href="about.html" class="w3-bar-item w3-button w3-right w3-mobile">About</a>
+      <a href="#quiz" class="w3-bar-item w3-button w3-right w3-mobile">Quiz</a>
+      <a href="enjoy.html" class="w3-bar-item w3-button w3-right w3-mobile">Enjoy</a>
+      <a href="food.html" class="w3-bar-item w3-button w3-right w3-mobile">Food</a>
+      <a href="art.html" class="w3-bar-item w3-button w3-right w3-mobile">Art</a>
+    </div>
+  </div>
+</div> 
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="img/slideshow4.jpg" alt="NY" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>New York City</b></span> <span class="w3-hide-small w3-text-light-grey">The big apple</span></h1>
+  </div>
+  </header>
+  
+
+<!-- Project Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" id="band">
+    <h1 class="w3-text-teal w3-border-bottom w3-border-black w3-wide">QUIZ</h1>
+    <p class="w3-opacity"><i>How much you know about NY?</i></p>
+    <div class="quiz-section">
+        <h1><span id="numeroDomanda"></span></h1>
+        <h3><span id="testoDomanda"></span></h3>
+        <label class="container"><span id="testoRisposta0"></span>
+        <input type="radio" checked="checked" name="risposte" id="risposta0">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container"><span id="testoRisposta1"></span>
+        <input type="radio"  name="risposte" id="risposta1">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container"><span id="testoRisposta2"></span>
+        <input type="radio" name="risposte" id="risposta2">
+        <span class="checkmark"></span>
+        </label>
+        <br/>
+        <br/>
+        <input type="button" value="Start Again" id="inizia" />
+        <br/>
+        <br/>
+        <span id="risultato"></span>
+        <br/>
+        <br/>
+        <input type="button" value="Next" id="avanti" />
+        <br/>
+        <br/>
+
+    </div>
+    </div>
+
+<!-- Navigation -->
+<div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="about.html" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="art.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="food.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="enjoy.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#quiz" class="w3-bar-item w3-black w3-button">5</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hover-black">6</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+   
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p> "Web Programming Design Project 2022/2023"
+    <br>
+    "Created by Gaia Sitri and validated with the W3C validator"
+  </p>
+  <a href="https://validator.w3.org/">
+    <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS validator">
+  </a>
+</footer>
+
+</body>
+</html>
+    
+    

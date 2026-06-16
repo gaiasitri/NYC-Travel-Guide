@@ -1,0 +1,83 @@
+.mySlides {display: none}
+img {vertical-align: middle;
+}
+
+.container {
+  position: relative; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 20px; 
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.w3-padding-64{
+  margin-top: 150px;
+}
+
+body > div.w3-row.w3-padding-64.w3-white{
+  margin-top: 0;
+}
+
+#band{
+  max-width: 800px;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+  margin-top: 260px;
+}
+}
+
